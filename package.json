@@ -4,7 +4,8 @@
   "description": "Bjorn and Mats Webpage",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node ./server.ts"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/Debaryon/HomePage01#readme",
   "devDependencies": {
+    "@types/express": "^4.16.0",
+    "express": "^4.16.3",
     "ts-node": "^7.0.1",
     "typescript": "^3.0.1"
   }
