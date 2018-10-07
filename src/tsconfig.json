@@ -8,6 +8,7 @@
         "noFallthroughCasesInSwitch": true,
         "noUnusedParameters": true,
         "noUnusedLocals": true,
-        "allowUnreachableCode": false
+        "allowUnreachableCode": false,
+        "jsx": "react"
     }
 }
