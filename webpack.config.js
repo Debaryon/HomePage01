@@ -5,7 +5,7 @@ const OUTPUT_DIR = path.join(__dirname, './public')
 
 module.exports = {
     entry: {
-        main: path.join(SRC_DIR, './main.ts')
+        main: path.join(SRC_DIR, './main')
     },
     mode: 'development',
     module: {
@@ -19,7 +19,7 @@ module.exports = {
         }]
     },
     resolve: {
-        extensions: ['.ts', '.tsx', 'js']
+        extensions: ['.ts', '.tsx', '.js']
     },
     output: {
         filename: '[name].js',
