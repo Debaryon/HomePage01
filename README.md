@@ -1,5 +1,20 @@
 # HomePage01
 Bjorn and Mats Webpage
+---
+## Libraries used
+- [React](https://www.npmjs.com/package/react)
+- [React-Redux](https://www.npmjs.com/package/react-redux)
+- [ReactDOM](https://www.npmjs.com/package/react-dom)
+- [Redux](https://www.npmjs.com/package/redux)
+- [Mocha](https://www.npmjs.com/package/mocha) and [Chai](https://www.npmjs.com/package/chai)
+- [ReactTransitionGroup](https://www.npmjs.com/package/react-transition-group)
+- [ReactRouter](https://www.npmjs.com/package/react-router)
+
+## Technologies
+- [Typescript](https://www.npmjs.com/package/typescript)
+- [TSLint](https://www.npmjs.com/package/tslint)
+- [WebPack](https://www.npmjs.com/package/webpack)
+- [Node](https://docs.npmjs.com/getting-started/what-is-npm) server run with [Express](https://www.npmjs.com/package/express)
 
 ---
 ## Instructions
