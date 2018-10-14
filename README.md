@@ -26,3 +26,17 @@ Run unit tests with following command in project root folder:
 ```
 npm test
 ```
+
+---
+## Useful code snippets
+#### Function no body return
+When function is defined by a single expression this:
+```typescript
+const f = (x: string): number => {
+    return x.length;
+};
+```
+can be simplefied into this:
+```typescript
+const f = (x: string): number => x.length;
+```
