@@ -45,7 +45,7 @@ npm test
 ---
 ## Useful code snippets
 #### Function no body return
-When function is defined by a single expression this:
+When function is defined by a single expression is this:
 ```typescript
 const f = (x: string): number => {
     return x.length;
@@ -54,4 +54,17 @@ const f = (x: string): number => {
 can be simplefied into this:
 ```typescript
 const f = (x: string): number => x.length;
+```
+#### Normal function shortened
+A normal function with body
+```typescript
+function f() {
+
+}
+```
+can be simplefied into this:
+```typescript
+const f = () => {
+
+}
 ```
