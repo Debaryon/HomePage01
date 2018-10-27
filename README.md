@@ -68,3 +68,22 @@ const f = () => {
 
 }
 ```
+#### Basic Unit Testing 
+Typescript file `maintest.spec.ts` with following code
+```typescript
+import { expect } from "chai";
+import { f } from "./main";
+
+describe("f", ()=> {
+    it("Should return string length 5", ()=> {
+        const actual = f("Bjorn");
+        const expected = 5;
+
+        expect(actual).to.equal(expected);
+    });
+});
+```
+...run from file `main.ts` with following code
+```typescript
+export const f = (x:string): number => 4;
+```
