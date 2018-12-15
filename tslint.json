@@ -29,7 +29,7 @@
             true,
             "allow-boolean-or-undefined"
         ],
-        "switch-default": true,
+        "switch-default": false,
         "strict-type-predicates": true,
         "no-consecutive-blank-lines": [
             true,
@@ -50,7 +50,7 @@
         "cyclomatic-complexity": false,
         "only-arrow-functions": true,
         "no-floating-promises": true,
-        "no-shadowed-variable": true,
+        "no-shadowed-variable": false,
         "no-var-keyword": true,
         "no-let": true
     }
